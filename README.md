@@ -1,4 +1,4 @@
-# 🥚 EggTimer – iOS App
+# EggTimer – iOS App
 
 EggTimer is a simple iOS application built with Swift and UIKit that helps users boil eggs perfectly based on their preferred hardness level.
 
@@ -8,7 +8,7 @@ This project demonstrates fundamental iOS development concepts such as UI intera
 
 ---
 
-## 📱 Features
+## Features
 
 - Select egg hardness:
   - Soft (3 minutes)
@@ -21,7 +21,7 @@ This project demonstrates fundamental iOS development concepts such as UI intera
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Language: Swift
 - Framework: UIKit
@@ -31,10 +31,8 @@ This project demonstrates fundamental iOS development concepts such as UI intera
 
 ---
 
-## 🧠 How It Works
+## Author
 
-The app stores cooking durations in a Swift dictionary:
-
-```swift
-let eggTime = ["Soft": 3, "Medium": 4, "Hard": 7]
+Sandro Lomtadze
+Junior iOS Developer
 
