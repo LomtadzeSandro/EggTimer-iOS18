@@ -1,27 +1,40 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+# 🥚 EggTimer – iOS App
 
-# Egg Timer
+EggTimer is a simple iOS application built with Swift and UIKit that helps users boil eggs perfectly based on their preferred hardness level.
 
-## Our Goal
+The user selects the desired egg type (Soft, Medium, Hard), and the app starts a countdown timer. When the timer finishes, the app displays "Done!".
 
-This module will be a mix of tutorials and challenges. Most importantly, we want you to get comfortable with looking up how to do something you've never done before. In certain places of this module, you’ll need to follow the 5 step process you learnt in the Xylophone module and use Google search, StackOverflow and Apple Documentation to make your code do what you want it to. But there are also other parts where we’ll take you step-by-step through new Swift programming concepts. 
+This project demonstrates fundamental iOS development concepts such as UI interaction, timers, state management, and basic MVC architecture.
 
-## What You'll Make
+---
 
-You’ll be building a beautiful egg timer app to boil your eggs to perfection depending on how you prefer your eggs. 
+## 📱 Features
 
-## What you will learn
+- Select egg hardness:
+  - Soft (3 minutes)
+  - Medium (4 minutes)
+  - Hard (7 minutes)
+- Countdown timer that updates every second
+- Automatically stops when time reaches zero
+- Displays "Done!" when cooking is complete
+- Prevents multiple timers from running at the same time
 
-* Swift Collection types - Dictionaries
-* The Swift Timer API
-* Conditional statements - IF/ELSE
-* Conditional statements - Switch
-* Functions with outputs
-* How to use the ProgressView
+---
 
+## 🛠 Tech Stack
 
+- Language: Swift
+- Framework: UIKit
+- Architecture: MVC
+- IDE: Xcode
+- iOS Target: iOS 13+
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+---
 
-![End Banner](Documentation/readme-end-banner.png)
+## 🧠 How It Works
+
+The app stores cooking durations in a Swift dictionary:
+
+```swift
+let eggTime = ["Soft": 3, "Medium": 4, "Hard": 7]
 
